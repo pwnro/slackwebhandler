@@ -11,11 +11,6 @@ use \Monolog\Logger;
  */
 class SlackWebHandler extends \Monolog\Handler\AbstractProcessingHandler
 {
-    /**
-     * Name of the New Relic application that will receive logs from this handler.
-     *
-     * @var string
-     */
     protected $hooksurl;
     protected $channel;
     protected $username;
